@@ -1,8 +1,8 @@
 require({
-  baseUrl: "src", // where located scripts
+  baseUrl: "src", // where located scripts, path based to index directory
   deps: ["main"],
   enforceDefine: true,
-  // path based to index directory
+  // path based to index directory with baseUrl - that is why ../external...
   path: {
     knockout: "../external/knockout-3.4.2",
     underscore: "../external/underscore"
