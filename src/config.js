@@ -1,5 +1,5 @@
 require({
-  baseUrl: "src",
+  baseUrl: "src", // where located scripts
   deps: ["main"],
   enforceDefine: true,
   // path based to index directory
@@ -16,6 +16,7 @@ require({
      * зависимости (здесь не определенны)
      */
     underscore: {
+      //deps: "some deps",
       exports: "_" // exports namespace
     }
   }

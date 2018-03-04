@@ -17,3 +17,9 @@ define(function() {
 
   return Task;
 });
+
+/**
+ * circular dependencies should be avoided, but in case realy needed resolve with require([], function...)
+ * inside define([...]) - https://coursehunters.net/course/requirejs
+ * madge - tool for determine circular dependencies
+ */
